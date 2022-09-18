@@ -1,0 +1,42 @@
+nav{
+    background: rgb(211,0,2);
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    padding: .6rem 1rem;
+    border-radius: 100px;
+    position: fixed;
+    gap: 2.5rem;
+    bottom: 40px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;
+}
+nav a{
+    color: aliceblue;
+    font-size: 2rem;
+    border-radius: 100px;
+    padding: .5rem;
+}
+nav a span{
+    font-size: 1rem;
+    padding: .5rem;
+    
+}
+nav a:hover{
+    background: rgba(255, 255, 255, .5)
+}
+.nav-dropdown{
+    padding: 4px 13px;
+    border-radius: 5px;
+    background: rgb(211,0,2);
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 100px;
+}
+

@@ -1,0 +1,40 @@
+
+.heroimg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.kingpic{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+.hero .hero-content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+}
+.hero-content h1{
+    color: aliceblue;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 1040px){
+    .hero-content h1{
+        color: aliceblue;
+        font-size: 3rem;
+    }
+    .hero .hero-content{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 90%;
+        left: 50%;
+        text-align: center;
+        width: 90%;
+    }
+}
